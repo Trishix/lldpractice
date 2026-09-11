@@ -489,7 +489,7 @@ Calibration fixtures validate strong, alternative, incomplete, contradictory, an
 - [Assignment brief](docs/assignment.md): original requirements and evaluation weights
 - [Calibration protocol](docs/calibration.md): live evaluation methodology and outstanding measurements
 - [AI usage](AI_USAGE.md): accepted and rejected AI-assisted decisions
-- [Content attribution and notice](docs/third-party/NOTICE.md): source and adaptation details
+- Content is pinned and adapted from the source repository identified in [docs/research.md](docs/research.md).
 
 The code itself is the source of truth for runtime behavior. Documentation describes the intended boundary and points to verification evidence where appropriate.
 
