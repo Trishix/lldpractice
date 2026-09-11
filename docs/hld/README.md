@@ -1,6 +1,6 @@
 # LLD Practice — implemented high-level design
 
-This document describes the application in this repository, rather than proposed infrastructure. The companion [low-level design](../lld/README.md) describes its classes, state transitions, and sequences. [Verification](../verification.md) is the authoritative record of executed checks and outstanding acceptance work; source structure alone is not evidence that every browser or provider scenario passed.
+This document describes the application in this repository, rather than proposed infrastructure. The companion [low-level design](../lld/README.md) describes its classes, state transitions, and sequences. The [README](../../README.md) lists executable validation commands; [calibration](../calibration.md) records the remaining live-provider and human-review gates.
 
 ## Product boundary
 
@@ -134,4 +134,4 @@ Accessible focus styles, labels, skip navigation, status/error messages, and nat
 
 The browser owns the saved snapshot. A stateless server can validate shape, content versions, answers, and evidence consistency; it cannot cryptographically prove that a client actually froze those bytes earlier or that client-supplied clarification history came from a previous invocation. There are no accounts, signed submissions, or server-held session history. This application is a practice tool, not a tamper-resistant examination service.
 
-Content execution, disclosure tests, domain/persistence/coordinator/API tests, browser workflows, and build checks have separate gates in [verification](../verification.md). [Calibration](../calibration.md) defines fixtures, repeat runs, answered/skipped clarification, and comparison to independent human ratings. Without configured provider access and independent human review, live grading accuracy, repeatability, and agreement targets remain unverified. Mocked provider results do not substitute for that evidence.
+Content execution, disclosure tests, domain/persistence/coordinator/API tests, browser workflows, and build checks have separate commands in the [README](../../README.md). [Calibration](../calibration.md) defines fixtures, repeat runs, answered/skipped clarification, and comparison to independent human ratings. Without configured provider access and independent human review, live grading accuracy, repeatability, and agreement targets remain unverified. Mocked provider results do not substitute for that evidence.

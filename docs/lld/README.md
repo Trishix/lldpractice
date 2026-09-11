@@ -1,6 +1,6 @@
 # LLD Practice — implemented low-level design
 
-This document maps actual code responsibilities and transitions. It complements the [high-level design](../hld/README.md) and the [v3 product flow](../lldpractice-v3.excalidraw). Final test counts, browser coverage, build status, and remaining gaps are recorded in [verification](../verification.md).
+This document maps actual code responsibilities and transitions. It complements the [high-level design](../hld/README.md) and the [v3 product flow](../lldpractice-v3.excalidraw). Run commands and current validation scope are recorded in the [README](../../README.md); remaining live evaluation gates are recorded in [calibration](../calibration.md).
 
 ## Code map and dependencies
 
@@ -326,6 +326,6 @@ Provider invocation uses `openai/gpt-oss-120b`, medium reasoning, 8,192 completi
 
 Admission maps and credential health do not survive process replacement or synchronize across replicas. Browser UUIDs provide correlation, not authentication or durable idempotency. The stateless server cannot prove that the client previously froze a design or previously received a claimed clarification. No cryptographic submission attestation, durable job, or cross-replica exactly-once guarantee exists.
 
-The [foundation report](../tasks/foundation-current-report.md) records focused implementation evidence. [Verification](../verification.md) owns final pass counts and browser/build evidence, while [calibration](../calibration.md) owns fixture and live grading records. Missing provider credentials or independent human review leave grading accuracy/agreement and repeatability targets unverified. No source diagram or mocked test is presented as a live calibration result.
+The [README](../../README.md) records the validation commands, while [calibration](../calibration.md) owns fixture and live grading records. Missing provider credentials or independent human review leave grading accuracy/agreement and repeatability targets unverified. No source diagram or mocked test is presented as a live calibration result.
 
 Current evaluator/prompt IDs are `design-v2` / `review-v2`. A saved session pinned to an unavailable older configuration must explicitly restart; its frozen 1.0.0 or 2.0.0 problem package remains available. Admission currently allows four concurrent / 20 per-minute reviews and 32 concurrent / 120 per-minute scoring calls within each process. A failed replacement import normalizes cancelled original runs to interrupted, preserving completed components and a local-save recovery path.

@@ -38,4 +38,4 @@ The provider uses `openai/gpt-oss-120b`, medium reasoning, and an 8,192-token co
 
 The implementation is validated with TypeScript, ESLint, unit/API tests, executable Java/Python/C++ content checks, Playwright browser journeys, production builds, and calibration fixtures. Live AI grading quality and independent human agreement remain separate verification tasks because mocked provider responses cannot establish them.
 
-See the [research note](docs/research.md), [content notice](docs/third-party/NOTICE.md), and [verification record](docs/verification.md) for supporting context.
+See the [research note](docs/research.md), [calibration protocol](docs/calibration.md), and [README](README.md) for supporting context.

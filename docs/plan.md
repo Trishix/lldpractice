@@ -1,6 +1,6 @@
 # LLD Practice Platform — Final Consolidated MVP Plan
 
-> The September 11 completion plan supplied by the user supersedes older execution details in this document. The active flow is Choose → Draft → Save frozen submission → Evaluate → Feedback → Revise → History. Current implementation and release evidence are in [HLD](hld/README.md), [LLD](lld/README.md), and [verification](verification.md). Content 2.0.0 retains 1.0.0 for saved attempts; review uses design-v2/review-v2, medium reasoning and 8,192 completion tokens, with one retry only for provider JSON-schema generation failures. The interface uses a 1440px shell, 240px navigation, 220px help panel, and 24px gaps. Optional phase/fallback/calibration keys are server-only. Live calibration and independent human grading remain separate external gates.
+> The September 11 completion plan supplied by the user supersedes older execution details in this document. The active flow is Choose → Draft → Save frozen submission → Evaluate → Feedback → Revise → History. Current implementation details and validation commands are in the [README](../README.md), [HLD](hld/README.md), and [LLD](lld/README.md). Content 2.0.0 retains 1.0.0 for saved attempts; review uses design-v2/review-v2, medium reasoning and 8,192 completion tokens, with one retry only for provider JSON-schema generation failures. The interface uses a 1440px shell, 240px navigation, 220px help panel, and 24px gaps. Optional phase/fallback/calibration keys are server-only. Live calibration and independent human grading remain separate external gates.
 
 ## 1. Goal, scope, and research
 
@@ -56,7 +56,6 @@ qualified review judgment; do not claim perfect automated evaluation.
 ### Existing artifacts and project location
 
 - Build directly in `/Users/trishitswarnakar/Documents/lldpractice`.
-- Preserve [the original sketch](intialplan.excalidraw).
 - The updated [v3 diagram](lldpractice-v3.excalidraw) records local storage,
   API settings, independent results, and interrupted-review recovery.
 - The [superseded proposal](archive/superseded-plan.md) is historical only.

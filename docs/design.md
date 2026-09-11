@@ -1,12 +1,12 @@
 # LLD Practice: Interface Design
 
-**Status:** Implemented interface; see [verification](verification.md) for executed checks and remaining external calibration gates.  
+**Status:** Implemented interface; see the [README](../README.md) for validation commands and [calibration](calibration.md) for remaining external evaluation gates.  
 **Audience:** Engineers building the prototype and reviewers assessing the learner experience.  
 **Direction:** Black canvas. White reading text. Yellow emphasis. As little interface as the task allows.
 
 ## 1. Design authority and reference
 
-This document defines presentation and interaction. The [Final Consolidated MVP Plan](plan.md), [HLD](hld/README.md), and [LLD](lld/README.md) remain authoritative for product behavior, domain rules, and APIs. The [assignment](assignment.md) establishes the practice loop and two-day scope. The [initial sketch](intialplan.excalidraw) supplies historical context; its chatbot and separate rough-book/entity/UML screens are superseded. [AI usage](../AI_USAGE.md) records implementation decisions. The [updated diagram](lldpractice-v3.excalidraw) shows the current flow.
+This document defines presentation and interaction. The [Final Consolidated MVP Plan](plan.md), [HLD](hld/README.md), and [LLD](lld/README.md) remain authoritative for product behavior, domain rules, and APIs. The [assignment](assignment.md) establishes the practice loop and two-day scope. [AI usage](../AI_USAGE.md) records implementation decisions. The [updated diagram](lldpractice-v3.excalidraw) shows the current flow.
 
 Use [AlgoMaster’s Tic-Tac-Toe page](https://algomaster.io/learn/lld/design-tic-tac-toe) for navigation, content proportions, and section hierarchy. The user’s final plan supersedes the older OpenAI-only layout direction. Its [official design guidelines](https://openai.com/brand/) describe geometric precision, approachable typography, clear hierarchy, and open space. Apply those qualities through restrained sans-serif type, deliberate alignment, and generous spacing. This is an adaptation for LLD Practice, not an official OpenAI design system. Keep the LLD Practice name and use the font stack below; OpenAI logos and OpenAI Sans are not required assets.
 
